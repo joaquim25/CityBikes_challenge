@@ -1,18 +1,5 @@
-import styled from "styled-components";
 import bicycle from "../../assets/bicycle.png"
-
-const HeroContainer = styled.div`
-    float: left;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-`
-
-const HeroImage = styled.img`
-    height: 160px;
-`
-
+import { HeroContainer, HeroImage, HeroList } from "./styles";
 
 function Hero() {
     return (
@@ -25,11 +12,11 @@ function Hero() {
                 By scrolling and clicking on the available markers, you are able to navigate in
                 three main categories:
             </p>
-            <ul>
+            <HeroList>
                 <li>First Category: Networks per Country</li>
                 <li>Second Category: Stations per Network</li>
                 <li>Third Category: Stations</li>
-            </ul>
+            </HeroList>
         </HeroContainer>
     );
 }

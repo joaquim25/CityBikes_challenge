@@ -4,11 +4,11 @@ import { RotatingLines } from 'react-loader-spinner';
 
 // Function to generate custom marker icons (leaflet library)
 const customMarkerIcon = (count: number | string) => {
+    // Render the LoadingAnimation component to HTML
     const loadingHtml = renderToString(<RotatingLines />);
 
     switch (count) {
         case "loading":
-            // Render the LoadingAnimation component to HTML
             return L.divIcon({
                 className: 'loading-marker',
                 html: loadingHtml,
