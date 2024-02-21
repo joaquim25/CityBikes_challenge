@@ -1,0 +1,1 @@
+export type LayersType = number;
