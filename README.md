@@ -35,7 +35,7 @@ npm install
 
 ## 🎈 How to test <a name="test"></a>
 
-To run this project locally, follow these steps:
+To test and run this project locally, follow these steps:
 1. After installing the required dependencies, start the development server using npm:
 
 ```
