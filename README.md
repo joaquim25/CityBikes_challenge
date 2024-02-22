@@ -4,7 +4,7 @@
 
 <h3 align="center">Citybikes challenge</h3>
 
-A simple Web App showing Bike Sharing data on an interactive and dynamic map.
+A simple Web App with Bike Sharing data on an interactive and dynamic map.
 
 ## 📝 Table of Contents
 
