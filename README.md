@@ -19,7 +19,7 @@ A simple Web App with Bike Sharing data on an interactive and dynamic map.
 ## 🧐 About <a name = "about"></a>
 
 This Project is a Web App using the http:/ api.citybik.es/v2/ API, which is an API for Bike Sharing Data <br>
-This Web App allows the user to easily navigate on the map check the total of networks per country, the number of stations per network and station details as well as their location on the map.
+It allows the user to easily navigate on the map check the total of networks per country, the number of stations per network and station details as well as their location on the map.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
