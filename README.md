@@ -10,7 +10,6 @@ A simple Web App with Bike Sharing data on an interactive and dynamic map.
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
 - [How to test](#test)
 - [Build](#build)
 - [Built Using](#built_using)
@@ -47,6 +46,7 @@ npm run dev
 - Map Navigation: Explore the map by using the inbuilt map buttons (+ and -), or by scrolling and clicking on the available markers.
 - Categories: Navigate through three main categories by clicking on the markers and the "go back" button: Networks per Country, Stations per Network, and Stations.
 - Station Status: Learn about station status by checking their information window data and the online, offline, and unknown status indicators.
+  - You can also find illustrated guidelines of that interaction [here](https://scribehow.com/shared/Procimo_CityBikes_Guidelines__7ygG1fzlSKWPES_Eubl8fw).
 
 ## 🚀 Build <a name = "build"></a>
 
