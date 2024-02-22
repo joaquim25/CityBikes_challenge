@@ -28,7 +28,9 @@
   transition: all .25s;
 }
 
-.custom-marker:hover {
+.custom-marker:hover,
+.online-marker:hover,
+.offline-marker:hover {
   background-color: #f3d700;
   color: #333;
   /* border: 1px solid black; */
