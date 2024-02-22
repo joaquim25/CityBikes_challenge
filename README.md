@@ -41,7 +41,7 @@ To test and run this project locally, follow these steps:
 ```
 npm run dev
 ```
-2. Open you browser and navigate to http://localhost:3000 (or you custom port url) to view the application.
+2. Open you browser and navigate to http://localhost:5173 (or you custom port url) to view the application.
 3. Once the application is running, you can explore its features by interacting with the map and UI elements. Here's a brief overview of what you can do:
    
 - Map Navigation: Explore the map by using the inbuilt map buttons (+ and -), or by scrolling and clicking on the available markers.
