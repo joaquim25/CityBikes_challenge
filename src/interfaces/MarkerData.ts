@@ -8,4 +8,5 @@ export interface MarkerData {
     details: string[]; // Details to be displayed in the marker Popup
     buttonText?: string; // Text for a optional button in the popup
     buttonAction: () => void; // Callback function for the button action
+    photo: string; // Optional photo url for marker
 }

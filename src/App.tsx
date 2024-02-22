@@ -1,6 +1,9 @@
+// Styled components library
 import styled from "styled-components";
+
+// Components
 import Hero from "./components/Hero";
-import MapComponent from "./components/MapComponent";
+import Map from "./components/Map";
 import Navbar from "./components/Navbar";
 
 const MainContainer = styled.div`
@@ -10,7 +13,7 @@ const MainContainer = styled.div`
   grid-template-columns: 1fr;
   gap: 20px;
 
-  @media (min-width: 800px){
+  @media (min-width: 900px){
     grid-template-columns: 30% 70%;
     grid-template-rows: 1fr;
   }
@@ -22,7 +25,7 @@ function App() {
       <Navbar />
       <MainContainer>
         <Hero />
-        <MapComponent />
+        <Map />
       </MainContainer>
     </>
   );

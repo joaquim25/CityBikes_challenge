@@ -9,4 +9,12 @@ export interface Station {
     position: LatLngExpression; // Position of the station on the map
     name: string; // Name of the station
     timestamp: string; // Timestamp for the station data
+    extra: {
+        address: string;    // Station address
+        description: string;    // Some extra description information
+        last_update: string;    // Last update timestamp
+        online: true;           // Station status
+        photo: string;          // Stations company or related photo url
+        uid: string;            // Unique station identifier
+    }
 }

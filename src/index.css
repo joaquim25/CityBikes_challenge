@@ -8,6 +8,26 @@
   transition: all .25s;
 }
 
+.online-marker {
+  background-color: green;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all .25s;
+}
+
+.offline-marker {
+  background-color: red;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all .25s;
+}
+
 .custom-marker:hover {
   background-color: #f3d700;
   color: #333;
@@ -58,4 +78,13 @@ button {
 button:hover {
   background-color: #f3d700;
   color: #333;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
 }

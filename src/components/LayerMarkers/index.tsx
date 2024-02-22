@@ -1,16 +1,21 @@
 // Components
 import { Marker, Popup, useMap } from 'react-leaflet';
 
+// Necessary hooks
+import { useMemo } from 'react';
+
+// Utility functions
+import { LatLngBoundsExpression, LatLngExpression, latLngBounds } from 'leaflet';
+import { parseLayerData } from '../../utils/parseLayerData';
+
 // Interfaces and types
 import { CountryData } from "../../interfaces/CountryData"
 import { CountriesData } from '../../interfaces/CountriesData';
 import { Station } from '../../interfaces/Station';
 import { MarkerData } from '../../interfaces/MarkerData';
 import { LayersType } from '../../types/LayersType';
-import { useMemo } from 'react';
-import { LatLngBoundsExpression, LatLngExpression, latLngBounds } from 'leaflet';
-import { parseLayerData } from '../../utils/parseLayerData';
 
+// Defining the interface for layerMarkerProps properties
 interface LayerMarkersProps {
     currentLayer: LayersType;
     countriesData: CountriesData;
@@ -77,6 +82,7 @@ const LayerMarkers = ({
                             {marker.details.map((detail, index) => (
                                 <p key={index}>{detail}</p>
                             ))}
+                            {marker.photo && <img src={marker.photo} height='30px' style={{ position: 'absolute', bottom: '8px', right: '8px', borderRadius: '4px' }}></img>}
                             {marker.buttonText && <button onClick={() => marker.buttonAction()}>{marker.buttonText}</button>}
                         </div>
                     </Popup>
