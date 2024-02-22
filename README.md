@@ -32,9 +32,9 @@ npm install
 ```
 
 
-## 🎈 How to test <a name="test"></a>
+## 🎈 How to test (run) <a name="test"></a>
 
-To test and run this project locally, follow these steps:
+To run this project locally, follow these steps:
 1. After installing the required dependencies, start the development server using npm:
 
 ```
@@ -42,7 +42,7 @@ npm run dev
 ```
 2. Open you browser and navigate to http://localhost:5173 (or you custom port url) to view the application.
 3. Once the application is running, you can explore its features by interacting with the map and UI elements. Here's a brief overview of what you can do:
-   
+
 - Map Navigation: Explore the map by using the inbuilt map buttons (+ and -), or by scrolling and clicking on the available markers.
 - Categories: Navigate through three main categories by clicking on the markers and the "go back" button: Networks per Country, Stations per Network, and Stations.
 - Station Status: Learn about station status by checking their information window data and the online, offline, and unknown status indicators.
@@ -59,12 +59,16 @@ npm run build
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [Vite](https://vitejs.dev/) 
+- [Vite](https://vitejs.dev/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Axios](https://axios-http.com/)
 - [Styled-components](https://styled-components.com/)
 - [Leaflet](https://leafletjs.com/)
 - [Mui/Material UI](https://mui.com/material-ui/)
+
+## ✨ Scheduled New Featuress <a name = "next_features"></a>
+
+- Map zoom triggers new layers (i.e: when the user zooms in on a country marker it triggers the new layer [Networks] and on zoom out does the opposite)
 
 ## ✍️ Authors <a name = "authors"></a>
 
